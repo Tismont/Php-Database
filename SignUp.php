@@ -1,4 +1,5 @@
 <?php
+// replace **** with your servername, username, password, dbname
 $conn = new mysqli('****', '****', '****', '****');
     
 if($conn === false){
